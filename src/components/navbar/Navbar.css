@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+.navbar{
+    background: #ffffff;
+    grid-area: nav;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    border-bottom: 1px solid lightgray;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar__left > a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: #a5aaad;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.navbar__left{ 
+    display: flex;
+    align-items: center;
+
+}
+.Users{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.navbar__left > img{
+    max-height: 100px;
+    object-fit: contain;
+    margin-right: 20px;
+    
+}
+.main__greeting {
+    padding-left: 15px;
+}
+.main__greeting>p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #a5aaad;
+}
+.navbar__right{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__right > a{
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.navbar__right > a > i{
+    color: #a5aaad;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px #ffffff;
+    padding: 7px;
+}
+
+@media only screen and(max-width: 978px){
+    .nav_icon{
+        display: inline;
+    }
+
+}
+@media only screen and(max-width: 480px){
+    .navbar__left{
+        display: none;
+    }
+}
+
+.dropbtn {
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    background-color: #7b2cff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+    
+}
+.dropbtn:hover {
+    background-color: #6a25e0;
+    box-shadow: 0px 4px 12px rgba(123, 44, 255, 0.4);
+    
+}
+.dropbtn:active {
+    transform: scale(0.95);
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover {
+    background-color: #6a25e0;
+    /* Đổi màu nền khi hover */
+    box-shadow: 0px 4px 12px rgba(123, 44, 255, 0.4);
+    /* Thêm bóng đổ */
+    transform: scale(1.05);
+    /* Tăng kích thước nhẹ */
+}
+
+/* Hiệu ứng khi nhấn */
+.dropdown:active {
+    transform: scale(0.98);
+    /* Giảm kích thước nhẹ khi nhấn */
+}

@@ -1,0 +1,95 @@
+
+.arrow_icon {
+    background-color: #733EF5;
+    color: white;
+    border-radius: 20px;
+    border-radius:1px solid #ffffff;
+    
+}
+
+.dayOfweek{
+    border: 1px solid #733EF5;
+    border-radius: 10px;
+}
+.today{
+    background-color: #733EF5;
+    color:#ffffff;
+    border: 1px solid #733EF5;
+    border-radius: 7px;
+    font-size: 20px;
+} 
+.schedule-container {
+  width: 95%;
+  padding-left: 10px;
+  
+}
+
+.schedule-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.schedule-controls button {
+    margin: 0 5px;
+    border: none;
+    
+}
+.schedule-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.schedule-table {
+  display: grid;
+  grid-template-columns: 100px repeat(7, 1fr);
+  gap: 5px;
+}
+
+.schedule-row {
+  display: contents;
+}
+
+.schedule-cell {
+  padding: 10px;
+  text-align: center;
+}
+
+.day-header {
+    background-color: #E9E9E9;
+    border-radius: 10px;
+}
+.day-header .nameday{
+    font-size:32px bold;
+    
+    color: #A7A5A9;
+    
+}
+.day-header .numberday{
+    font-size:35px;
+    font-weight: 700;
+}
+.shift-label {
+    background-color: #E9E9E9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.shift-cell .employee {
+    border: 1px solid #733EF5;
+    margin:  0;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 15px 0;
+}
+.divider {
+    grid-column: 1 / span 8;
+    /* Đặt đường kẻ trên toàn bộ chiều rộng */
+    border-top: 2px solid #000000;
+    /* Đường kẻ */
+}
