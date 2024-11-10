@@ -68,40 +68,19 @@ const App = () => {
   };
 
   return (
-<<<<<<< HEAD
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-<<<<<<< HEAD
-          (,xHoi dan IT)
-=======
-          Edit <code>src/App.js</code> and save to reload.
->>>>>>> 8a6cea8 (Initialize project using Create React App)
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-=======
-    <div className="container">
-      {isAuthenticated ? (
-        <>
-          <Navbar username={username} />
-          <Main revenue={revenue} appointment={appointment} employees={employees} />
-          <Sidebar />
-        </>
-      ) : (
-          // <Auth onAuthenticated={handleAuthentication} />
-      )}
->>>>>>> d7c198e (Cập nhật code và thêm các file mới)
+      <div className="container">
+        {isAuthenticated ? (
+          <>
+            <Navbar username={username} />
+            <Main revenue={revenue} appointment={appointment} employees={employees} />
+            <Sidebar />
+          </>
+        ) : (
+            <Auth onAuthenticated={handleAuthentication} />
+        )}
+      </div>
     </div>
   );
 };
-
 export default App;
