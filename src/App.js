@@ -97,7 +97,7 @@ const App = () => {
           <Sidebar />
         </>
       ) : (
-          <Auth onAuthenticated={handleAuthentication} />
+          // <Auth onAuthenticated={handleAuthentication} />
       )}
 >>>>>>> d7c198e (Cập nhật code và thêm các file mới)
     </div>
