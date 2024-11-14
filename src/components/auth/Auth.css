@@ -95,7 +95,7 @@ img{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 50px;
+    /* padding: 0 50px; */
     height: 100%;
     text-align: center;
 }
@@ -127,9 +127,9 @@ img{
     z-index: 2;
 }
 
-/* .container.right-panel-active .sign-in-container {
+.container.right-panel-active .sign-in-container {
     transform: translateX(-100%);
-} */
+}
 .sign-up-container {
     width: 85%;
     padding-left: 30px;

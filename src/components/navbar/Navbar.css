@@ -40,6 +40,10 @@ body {
 .main__greeting {
     padding-left: 15px;
 }
+.main__greeting >div  {
+    padding-right: 130px;
+    font-weight:600;
+}
 .main__greeting>p {
     font-size: 14px;
     font-weight: 700;

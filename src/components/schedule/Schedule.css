@@ -21,7 +21,8 @@
 .schedule-container {
   width: 95%;
   padding-left: 10px;
-  
+  box-shadow: 5px 5px 5px 5px #A7A5A9;
+  border-radius: 10px;
 }
 
 .schedule-header {

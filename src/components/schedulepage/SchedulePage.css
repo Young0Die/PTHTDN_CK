@@ -1,0 +1,103 @@
+.schedule_page_container{
+    background: #f3f4f6;
+    grid-area: main;
+    overflow-y: auto;
+    padding: 20px 35px;
+}
+.button_Schedule{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 55px 35px 55px;
+
+}
+.drop_icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn_SUshift{
+    border: 3px solid #733EF5;
+    border-radius: 10px;
+    align-items: center;
+    padding: 8px 20px;
+    font-size: 16px;
+}
+
+.dropdown_schedulepage {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn_schedulepage {
+    border: 3px solid #733EF5;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    
+    cursor: pointer;
+}
+
+.dropdown-content_schedulepage {
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 8px 0;
+    /* Tạo khoảng trống cho phần tử bên trong */
+}
+
+.dropdown-content_schedulepage a {
+    color: black;
+    padding: 10px 16px;
+    /* Khoảng cách trong mỗi phần tử */
+    text-decoration: none;
+    display: block;
+    /* Hiển thị từng phần tử trên một dòng */
+}
+
+.dropdown-content_schedulepage a:hover {
+    background-color: #f1f1f1;
+}
+
+
+
+
+.font-bold_text-title {
+    font-size: 32px;
+    font-weight: medium;
+    text-align: center;
+}
+
+.main__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin: 20px 0;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80px;
+    padding: 25px;
+    border-radius: 10px;
+    background: #ffffff;
+    border: 3px solid #733EF5;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+

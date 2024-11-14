@@ -54,7 +54,7 @@
 
 
 .sidebar__link{
-    color: #2d2e31;
+    color: #000000;
     padding: 20px;
     border-radius: 3px;
    
@@ -62,8 +62,8 @@
 
 .sidebar__link > a{
     text-decoration: none;
-    color: #733EF5;
-    font-weight: 700;
+    color: #000000;
+    font-weight: 530;
 }
 .sidebar__link >i {
     margin-right: 10px;
