@@ -1,0 +1,30 @@
+.setworkschedule_container{
+    background: #f3f4f6;
+    grid-area: main;
+    overflow-y: auto;
+    padding: 20px 35px;
+}
+.btn_back{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3.3px solid #733EF5;
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 551;
+}
+.text_button{
+    display: center;
+    padding: 0 60px 0 60px;
+}
+.btn_Confirm{
+    background-color:#2A00BB;
+    border: 3.3px solid #2A00BB;
+    border-radius: 10px;
+    color:white;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 550;
+}

@@ -11,12 +11,13 @@ const Sidebar = ({sidebarOpen, closeSidebar}) => {
                     <h1>PET CARE</h1>
                 </div>
             </div>
+                <hr className="divider_sidebar" />
+
             <div className="sidebar__menu">
                 <div className = "sidebar__link ">
                     <House size={25}/>  
                     <a className = "dashboard" href="/"><div className="icon">Dashboard</div></a>
                 </div>
-                {/* <h2>MNG</h2> */}
                 <div className="sidebar__link">
                     <CalendarBlank size={25} />
                     <a href="/schedule"><div className="icon">Schedule</div></a>

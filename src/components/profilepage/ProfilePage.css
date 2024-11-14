@@ -1,0 +1,47 @@
+.profile_container{
+    background: #f3f4f6;
+    grid-area: main;
+    overflow-y: auto;
+}
+.text_button_edit{
+    display: center;
+    padding: 8px 15px 8px 15px;
+}
+.edit_button{
+    margin-left: auto;
+    /* Đẩy button sang phải */
+    margin-right: 100px;
+    background-color: #7b2cff;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+.name_page_button_edit >h1{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.name_page_button_edit{
+    align-items: center;
+    justify-content: space-between;
+    display:flex;
+    padding: 30px 0 30px 0;
+    width: 100%;
+    position: relative;
+}
+.userName{
+    align-items:center;
+    justify-content:left;
+    display:flex;
+    padding-left: 100px;
+    padding-top : 35px;
+}
+.profile_info{
+    box-shadow: 5px 5px 5px 5px #A7A5A9;
+    border-radius: 10px;
+    justify-content: center;
+    height: 60%;
+    width: 50%;
+    margin: 0 auto;
+}

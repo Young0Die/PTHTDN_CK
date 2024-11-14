@@ -51,7 +51,10 @@
     margin-left: 10px;
 }
 
-
+.divider_sidebar {
+    border: 1px solid #bbb;
+    width:100%;
+}
 
 .sidebar__link{
     color: #000000;
