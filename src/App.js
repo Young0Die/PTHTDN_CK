@@ -6,6 +6,7 @@ import Auth from "./components/auth/Auth"; // Nhập Auth
 import SchedulePage from "./components/schedulepage/SchedulePage";
 import SetWorkSchedule from "./components/schedulepage/SetWorkSchedule";
 import "./App.css";
+import SignUpForWorkShift from "./components/schedulepage/SignUpForWorkShift";
 import ProfilePage from "./components/profilepage/ProfilePage"
 const App = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -41,7 +42,8 @@ const App = () => {
               {/* <Main revenue={revenue} appointment={appointment} employees={employees} /> */}
               {/* <SetWorkSchedule/> */}
               {/* <SchedulePage /> */}
-              <ProfilePage username={username} gender ={gender} numberPhone = {numberPhone} address = {address} DOB = {DOB} email = {email}/>
+              {/* <ProfilePage username={username} gender ={gender} numberPhone = {numberPhone} address = {address} DOB = {DOB} email = {email}/> */}
+              <SignUpForWorkShift/>
               <Sidebar />
             </>
           ) : (
