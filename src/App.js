@@ -7,7 +7,8 @@ import SchedulePage from "./components/schedulepage/SchedulePage";
 import SetWorkSchedule from "./components/schedulepage/SetWorkSchedule";
 import "./App.css";
 import SignUpForWorkShift from "./components/schedulepage/SignUpForWorkShift";
-import ProfilePage from "./components/profilepage/ProfilePage"
+import ProfilePage from "./components/profilepage/ProfilePage";
+import Appointment from "./components/appointmentpage/Appointment";
 const App = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -43,7 +44,8 @@ const App = () => {
               {/* <SetWorkSchedule/> */}
               {/* <SchedulePage /> */}
               {/* <ProfilePage username={username} gender ={gender} numberPhone = {numberPhone} address = {address} DOB = {DOB} email = {email}/> */}
-              <SignUpForWorkShift/>
+              {/* <SignUpForWorkShift/> */}
+              <Appointment/>
               <Sidebar />
             </>
           ) : (
