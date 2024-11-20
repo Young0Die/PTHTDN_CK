@@ -1,0 +1,110 @@
+.customer{
+    background: #f3f4f6;
+    grid-area: main;
+    overflow-y: auto;
+}
+
+
+
+/* Appointments Table */
+.customer-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 1px 1px 1px 1px #D9D9D9;
+    border-radius: 10px;
+}
+
+.customer-table thead {
+    box-shadow: 1px 1px 1px 1px #D9D9D9;
+}
+
+/* Header and Cell Styles */
+.customer-table th,
+.customer-table td {
+    padding: 8px;
+    border-bottom: 1px solid #D9D9D9;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.custom-select {
+    border: 1px solid #733EF5;
+    border-radius: 3px;
+
+}
+
+
+
+
+.find_text_cus {
+    padding-left: 40px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 1px solid #733EF5;
+}
+
+/* Input and Search */
+.find-container {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    padding-top: 30px;
+    position: relative;
+
+}
+
+.input_icon_kinh {
+    position: absolute;
+    margin: 2px;
+    padding: 10px;
+}
+
+/* Filter Create Container */
+.fil_create-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back_next {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.hidden_border {
+    border: none;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+/* Over List Layout */
+.over_list_cus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+
+.button_customer{
+    background-color: #7b2cff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+

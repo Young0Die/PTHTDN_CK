@@ -9,6 +9,9 @@ import "./App.css";
 import SignUpForWorkShift from "./components/schedulepage/SignUpForWorkShift";
 import ProfilePage from "./components/profilepage/ProfilePage";
 import Appointment from "./components/appointmentpage/Appointment";
+import Customer from "./components/customerpage/CustomerPage";
+import Service from "./components/servicepage/ServicePage";
+import Staff from "./components/staffpage/StaffPage";
 const App = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -45,7 +48,9 @@ const App = () => {
               {/* <SchedulePage /> */}
               {/* <ProfilePage username={username} gender ={gender} numberPhone = {numberPhone} address = {address} DOB = {DOB} email = {email}/> */}
               {/* <SignUpForWorkShift/> */}
-              <Appointment/>
+              {/* <Customer/> */}
+              {/* <Service/> */}
+              <Staff/>
               <Sidebar />
             </>
           ) : (

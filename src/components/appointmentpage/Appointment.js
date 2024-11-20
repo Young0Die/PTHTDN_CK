@@ -109,6 +109,9 @@ const Appointment = () => {
                     <button className="clear-filter-btn" onClick={clearFilter}>
                         Clear Filter
                     </button>
+                    <button className="button_appointment">
+                        Create Appointment
+                    </button>
                 </div>
             </div>
             {/* Bảng danh sách */}
